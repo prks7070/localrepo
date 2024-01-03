@@ -1,0 +1,33 @@
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #faf6f6;
+    font-family: Baskerville,'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+header{
+    font-weight:bold;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #faf6f6;
+  }
+}
+#navbar li{
+  margin:4px;
+  list-style:none;
+}
+#navbar ul{
+  overflow:auto;
+}
+#navbar ul a {
+  text-decoration:none;
+  color:blue:
+} 
+#navbar ul a:hover{
+  color:red;
+}
